@@ -18,19 +18,22 @@ export const Items = styled.div`
 	.item {
 		width: 120px;
 		position: relative;
+		line-height: 16px;
 		img {
 			width: 120px;
 			height: 120px;
+            border-radius: 5px;
 		}
 		.playCountBox {
 			position: absolute;
 			right: 2px;
 			top: 2px;
 			color: white;
+			font-size: 12px;
 		}
 		.descBox {
 			font-size: 12px;
-			color: #000;
+			color: #2e3030;
 			margin-top: 2px;
 			height: 50px;
 		}
