@@ -10,24 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa89be2e-f277-4a47-aaf7-ea9d7196defb" name="Default Changelist" comment="轮播图&amp;歌曲列表">
-      <change afterPath="$PROJECT_DIR$/src/api/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Recommend/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Recommend/store/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Recommend/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Recommend/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Recommend/style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/scroll/index.js" afterDir="false" />
+    <list default="true" id="fa89be2e-f277-4a47-aaf7-ea9d7196defb" name="Default Changelist" comment="轮播图&amp;&amp;歌曲列表：使用react-redux实现数据渲染">
+      <change afterPath="$PROJECT_DIR$/src/baseUI/loading/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/list/music.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Recommend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Recommend/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Recommend/store/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/store/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Recommend/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Recommend/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +62,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -126,7 +120,7 @@
       <updated>1598970772945</updated>
       <workItem from="1598970777463" duration="5638000" />
       <workItem from="1599056772135" duration="7937000" />
-      <workItem from="1599292094829" duration="6725000" />
+      <workItem from="1599292094829" duration="11638000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目&amp;路由配置&amp;顶部栏&amp;tab栏基本样式">
       <created>1599058848539</created>
@@ -142,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599064778859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="轮播图&amp;&amp;歌曲列表：使用react-redux实现数据渲染">
+      <created>1599298944265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599298944266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +165,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化项目&amp;路由配置&amp;顶部栏&amp;tab栏基本样式" />
     <MESSAGE value="轮播图&amp;歌曲列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="轮播图&amp;歌曲列表" />
+    <MESSAGE value="轮播图&amp;&amp;歌曲列表：使用react-redux实现数据渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="轮播图&amp;&amp;歌曲列表：使用react-redux实现数据渲染" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="0" key="#JavaScript" timestamp="1599060031839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="423" y="0" key="#JavaScript/0.0.1366.728@0.0.1366.728" timestamp="1599060031839" />
-    <state x="563" y="199" key="#Notifications" timestamp="1599292242080">
+    <state x="563" y="199" key="#Notifications" timestamp="1599370061391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="563" y="199" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1599292242080" />
+    <state x="563" y="199" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1599370061391" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598970853218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -203,10 +205,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599292609916" />
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1599064782379">
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1599298956387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599064782379" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599298956387" />
     <state x="485" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599058801446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,9 +217,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="386" y="80" width="594" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1599296870996" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599062184397">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599371039054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599062184397" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599371039054" />
   </component>
 </project>
